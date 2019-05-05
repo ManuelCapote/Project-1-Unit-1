@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: lavender;
 }
 /* Link Styles */
 
@@ -25,12 +25,14 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #000033;
   min-height: 30px;
   padding: 10px;
   position: fixed;
   text-align: center;
+  text-decoration-color: yellow;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -43,7 +45,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: yellow;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,12 +54,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: yellow;
 }
 
 header {
   text-align: center;
-  background: url('../images/Background1.jpg') no-repeat top center ;
+  background: url('../images/background1.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,7 +72,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 100%;
-  border: 5px solid white;
+  border: 5px solid yellow;
   transition: all .2s;
 }
 header .profile-image:hover {
@@ -93,8 +95,8 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
-  border-bottom: 60px solid #ccc;
+  background: #f8de7e;
+  border-bottom: 60px solid #f8de7e;
   border-radius: 60px;
   transition: all .5s;
 }
@@ -119,6 +121,222 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+/*!-- Work-XP Style page */
+.workxp {
+    text-align: center;
+    background: url('../images/work_xp_bg.jpg') no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+}
+.workxp {
+    line-height: 1.5;
+  }
+.workxp .profile-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 0%;
+    border: 3px double #cc7722;
+    transition: all .5s;
+  }
+.workxp .profile-image:hover {
+    transform: scale(1.2) rotate(5deg);
+  }
+  .workxp-body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #cc7722;
+  }
+  .tag-workxp {
+    background-color: #efefef;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 10px auto;
+  }
+  .card-workxp {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fcf4a3;
+    border-bottom: 60px solid #fcf4a3;
+    border-radius: 0px;
+    transition: all .5s;
+  }
+  .card-workxp:hover {
+    border-color: #ff99ff;
+  }
+
+  ul.skills-workxp {
+    padding: 0;
+    text-align: center;
+  }
+
+  .skills-workxp li {
+    border-radius: 6px;
+    display: inline-block;
+    background: #ff9904;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+  }
+
+  .skills-workxp li:nth-child(odd) {
+    background: #0399ff;
+  }
+  /*!-- study-xp Style page */
+  .studyxp-body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #d9dddc;
+  }
+  .studyxp {
+      text-align: center;
+      background: url('../images/study_xp_bg.jpg') no-repeat top center ;
+      background-size: cover;
+      overflow: hidden;
+      padding-top: 60px;
+  }
+  .studyxp {
+      line-height: 1.5;
+    }
+  .studyxp  .profile-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    border: 3px dashed black;
+    transition: all .5s;
+    }
+  .studyxp .profile-image:hover {
+      transform: scale(1.2) rotate(5deg);
+    }
+    .tag-studyxp {
+      background-color: #efefef;
+      color: black;
+      padding: 10px;
+      border-radius: 5px;
+      display: table;
+      margin: 10px auto;
+    }
+    .description-studyxp {
+      background-color: #222;
+      color: yellow;
+    }
+    .card-studyxp {
+        margin: 30px;
+        padding: 20px 40px 40px;
+        max-width: 500px;
+        text-align: left;
+        background: #fff;
+        border-bottom: 60px solid #fff;
+        border-radius: 60px;
+        transition: all .5s;
+    }
+    .card-studyxp:hover {
+      border-color: #ff99ff;
+    }
+
+    ul.skills-studyxp {
+      padding: 0;
+      text-align: center;
+    }
+
+    .skills-studyxp li {
+      border-radius: 6px;
+      display: inline-block;
+      background: #ff9904;
+      color: white;
+      padding: 5px 10px;
+      margin: 2px;
+    }
+
+    .skills-studyxp li:nth-child(odd) {
+      background: #0399ff;
+    }
+    /*!-- my-hobbies Style page */
+    .myhobbies {
+      text-align: center;
+      background: url('../images/hobbie-bg.jpg') no-repeat top center ;
+      background-size: cover;
+      overflow: hidden;
+      padding-top: 60px;
+    }
+    .myhobbies {
+        line-height: 1.5;
+      }
+    .myhobbies .profile-image {
+      margin-top: 50px;
+      width: 150px;
+      height: 150px;
+      border-radius: 15%;
+      border: 3px dotted white;
+      transition: all .5s;
+      }
+    .myhobbies .profile-image:hover {
+        transform: scale(1.2) rotate(5deg);
+      }
+      .myhobbies-body {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #222;
+        background: #ffcc00;
+      }
+      .tag-myhobbies {
+        background-color: #efefef;
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        display: table;
+        margin: 10px auto;
+      }
+      .description-myhobbies {
+        background-color: #222;
+        color: yellow;
+      }
+      .card-myhobbies {
+        margin: 30px;
+        padding: 20px 40px 40px;
+        max-width: 500px;
+        text-align: left;
+        background: #0080fe;
+        border-bottom: 60px solid #0080fe;
+        border-radius: 60px;
+        transition: all .5s;
+      }
+      .card-myhobbies:hover {
+        border-color: #ff99ff;
+      }
+
+      ul.skills-myhobbies {
+        padding: 0;
+        text-align: center;
+      }
+
+      .skills-myhobbies li {
+        border-radius: 6px;
+        display: inline-block;
+        background: #ff9904;
+        color: white;
+        padding: 5px 10px;
+        margin: 2px;
+      }
+
+      .skills-myhobbies li:nth-child(odd) {
+        background: #0399ff;
+      }
+      /*End of Style CSS for pages */
 
 footer {
   width: 100%;
